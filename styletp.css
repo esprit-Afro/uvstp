@@ -1,0 +1,70 @@
+/* Style global pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le conteneur principal */
+#container {
+    width: 100%;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+/* Style pour l'entête */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style pour la navigation */
+nav {
+    background-color: #f5f5f5;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Dispose les liens en ligne */
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style pour le bloc principal */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Style pour l'article contenant l'iframe */
+article iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
+
+/* Style pour le pied de page */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
